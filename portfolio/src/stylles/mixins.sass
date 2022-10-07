@@ -1,0 +1,26 @@
+//estilos que serão reutilizados como funções em vários lugares
+
+ @use 'variables'
+
+
+ @mixin center
+   display: flex
+   justify-content: center
+   align-itens: center
+
+ @mixin btn
+    padding: 1rem 1.2rem
+    color: variables.$text-color
+    background-color: variables.$gradient
+    text-decoration: none
+    border-radius: 3rem
+
+  @mixin barra
+       //&::after borda após o nome
+            content: ""
+            background: variables.$gradient
+            height: 3px
+            width: 40%
+            margin-top: 20px
+
+    //não consegui usar essa função

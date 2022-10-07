@@ -1,0 +1,54 @@
+@use '../variables.sass'
+@use '../mixins.sass'
+
+#information
+   display: flex
+   justify-content: center
+   align-itens: center
+   gap: 1rem
+   flex-direction: column
+   background: variables.$bg-color-secondary
+   margin: 2rem 1rem 1rem 2rem
+   padding: 1rem
+   text-align: left
+   width: 80%
+   border-radius: variables.$card-border-radius
+
+   .info-card
+      display: flex
+      justify-content: center
+      align-itens: center
+      justify-content: start
+      gap: .5rem
+      padding: .8rem
+      padding-bottom: .8rem
+      margin-bottom: .8rem
+      border-bottom: 1px solid #444
+      width: 100%
+
+h3
+      color: variables.$text-color-secondary
+      font-size: .8rem
+      margin-bottom: .5rem
+    
+p
+      color: variables.$text-color
+      font-weight: bold
+
+svg
+      background-color: variables.$bg-color
+      padding: .4rem
+      width: 3rem
+      height: 3rem
+      border-radius: variables.$card-border-radius
+
+#phone-icon
+          color: #e93b81
+      
+#mail-icon
+          color: #6ab5b9
+          width: 3.3rem
+          height: 3.3rem
+
+#pin-icon
+          color: #c17ceb

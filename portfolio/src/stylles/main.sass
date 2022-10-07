@@ -1,0 +1,20 @@
+// não precisa as chaves nem o ;
+//reset SASS
+//a importação aqui usa o @use
+
+@use 'variables'
+
+*
+    padding: 0
+    margin: 0
+    font-family: variables.$font-stack //aqui estou usando uma variável
+    box-sizing: border-box
+
+
+body
+    background-color: variables.$body-bg-color
+    
+
+a, svg
+    transition: .4s
+

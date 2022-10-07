@@ -1,0 +1,44 @@
+@use '../variables'
+    
+#mainContent
+    background-color: variables.$bg-color
+    flex: 2 1 0 //fator de crescimento o dobro do sidebar
+    border-radius: variables.$container-border-radius
+    padding: 3rem
+        
+
+    section
+        display: flex
+        flex-direction: column
+    
+    h2
+        color: variables.$text-color
+        font-size: 2.2rem
+        display: flex
+        justify-content: center
+        align-itens: center
+        margin-bottom: 1.3rem
+        justify-content: start
+        gap: 1rem
+
+        &::after //borda após o nome
+            content: ""
+            background: variables.$gradient
+            height: 3px
+            width: 30%
+            margin-top: 20px
+
+    p
+        color: variables.$text-color-secondary
+        margin-bottom: 1rem
+        line-height: 1.4rem
+        text-align: justify
+
+    #btn
+            padding: 1rem 1.2rem
+            color: variables.$text-color
+            background-color: variables.$gradient
+            text-decoration: none
+            border-radius: 3rem
+            align-self: center
+              

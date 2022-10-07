@@ -1,0 +1,46 @@
+@use '../variables'
+@use '../mixins'
+//@include está incluindo o arquivo do mixins
+#sidebar
+    background-color: variables.$bg-color
+    flex: 1 0 0 //tamanho de crescimento proporcional aos elementos  
+    border-radius: variables.$container-border-radius
+    display: flex
+    align-items: center
+    flex-direction: column
+    text-align: center
+    position: relative
+    padding: 3rem 0
+    gap: 10px
+    
+
+    img
+        max-width: 45%
+        border-radius: variables.$container-border-radius
+        position: absolute
+        top: -3rem
+        margin-bottom: 45px
+        gap: 20px
+
+.title
+    color: variables.$text-color-secondary
+    background-color: variables.$bg-color-secondary
+    border-radius: variables.$card-border-radius
+    margin-top: 15rem
+    padding: .8rem 1.2rem
+    gap: 10px
+
+#btn
+   padding: 1rem 1.2rem
+   color: variables.$text-color
+   text-decoration: none
+   border-radius: 3rem
+   background: variables.$gradient
+    
+p
+    color: #fff
+
+div
+    color: #fff
+    
+
