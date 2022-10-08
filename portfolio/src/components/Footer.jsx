@@ -1,8 +1,9 @@
-
+import "../stylles/components/footer.sass"
 
 function Footer() {
   return (
-    <div>TESTEEEEEEEEEEE</div>
+    <div id="footer">
+      <h4>anikape@2022</h4></div>
   )
 }
 

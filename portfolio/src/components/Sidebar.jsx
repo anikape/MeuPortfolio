@@ -4,7 +4,7 @@
 import SocialNetworks from "./SocialNetworks";
 import Information from "./Information";
 
-import Avatar from '../img/Eu.jpg';
+import Avatar from '../img/EU2.jpeg';
 
 import '../stylles/components/sidebar.sass';
 

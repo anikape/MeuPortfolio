@@ -3,20 +3,27 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import "../stylles/components/socialNetworks.sass";
 
 const socialNetworks = [
-  { name: "linkedin", icon: <FaLinkedinIn /> },
+  { name: "instagram", icon: <FaInstagram />, },
   { name: "github", icon: <FaGithub /> },
-  { name: "instagram", icon: <FaInstagram /> },
+  { name: "linkedin", icon: <FaLinkedinIn /> },
+   
 ];
 
 const SocialNetwork = () => {
   return (
     <section id="social-networks">
-      {socialNetworks.map((network) => (
-        <a href="#" className="social-btn" id={network.name} key={network.name}>
-          {network.icon}
-        </a>
-      ))}
-    </section>
+    {socialNetworks.map((network) => (
+      <a href="#" target="_blank" className="social-btn" id={network.instagram} key={network.instagram}>
+        {network.icon}
+      </a>,
+       <a href="#" target="_blank" className="social-btn" id={network.linkedin} key={network.linkedin}>
+       {network.icon}
+     </a>,
+      <a href="#" target="_blank" className="social-btn" id={network.github} key={network.github}>
+      {network.icon}
+    </a>
+    ))}
+  </section>
   );
 };
 
