@@ -4,7 +4,6 @@ import SustentaTech from '../img/sustentaTech.jpg';
 import MundoInvertido from "../img/MundoInvertido.png";
 import NLW from "../img/NLW ESports.png";
 import Conversor from "../img/ConversorMoedas.png";
-import Gorjeta from "../img/Gorjeta.png";
 import SouJr from "../img/SouJr.png"
 
 const Projects = () => {
