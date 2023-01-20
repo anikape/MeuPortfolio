@@ -5,6 +5,7 @@ import MundoInvertido from "../img/MundoInvertido.png";
 import NLW from "../img/NLW ESports.png";
 import Conversor from "../img/ConversorMoedas.png";
 import Gorjeta from "../img/Gorjeta.png";
+import SouJr from "../img/SouJr.png"
 
 const Projects = () => {
   return (
@@ -13,6 +14,11 @@ const Projects = () => {
     <h2>Projetos</h2>
     <h3 id="title">Projetos conjuntos</h3>
     <div className="projetos-grid">
+    <div className="projetos-cards">
+      <img src={SouJr} alt="SouJr" />
+      <h3>SouJr</h3>
+      <a href="https://www.soujunior.tech/" target="_blank" id="btn">Ver Projeto</a>
+    </div>
     <div className="projetos-cards">
       <img src={Avatar} alt="Brasileirissimo" />
       <h3>Brasileiríssimo</h3>
