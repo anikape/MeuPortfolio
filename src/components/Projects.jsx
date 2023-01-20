@@ -50,12 +50,7 @@ const Projects = () => {
       <h3></h3>
       <a href="https://anikape.github.io/Conversor-de-Moedas/" target="_blank" id="btn">Ver Projeto</a>
     </div>
-     <div className="projetos-cards">
-      <img src={Gorjeta} alt="Calculadora de Gorjetas" />
-      <h3></h3>
-      <a href="https://anikape.github.io/calculadoraGorjetas/" target="_blank" id="btn">Ver Projeto</a>
-    </div>
-
+   
     </div>
 
 
