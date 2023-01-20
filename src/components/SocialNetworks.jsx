@@ -13,13 +13,13 @@ const SocialNetwork = () => {
   return (
     <section id="social-networks">
     {socialNetworks.map((network) => (
-      <a href="#" target="_blank" className="social-btn" id={network.instagram} key={network.instagram}>
+      <a href="#" target="_blank" rel="noreferrer" className="social-btn" id={network.instagram} key={network.instagram}>
         {network.icon}
       </a>,
-       <a href="#" target="_blank" className="social-btn" id={network.linkedin} key={network.linkedin}>
+       <a href="#" target="_blank" rel="noreferrer" className="social-btn" id={network.linkedin} key={network.linkedin}>
        {network.icon}
      </a>,
-      <a href="#" target="_blank" className="social-btn" id={network.github} key={network.github}>
+      <a href="#" target="_blank"  rel="noreferrer" className="social-btn" id={network.github} key={network.github}>
       {network.icon}
     </a>
     ))}
